@@ -7,8 +7,8 @@ ejecutenlo en la terminal
 ```sh
 cd game
 python3 main.py
-
-# App Proyect
+```
+# Curso-python-pip
 ```sh
 git clone
 cd app
