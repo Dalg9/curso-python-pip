@@ -5,6 +5,6 @@ def get_categories():
     print(r.status_code)
     print(r.text)
     print(type(r.text))
-    categories = r.json()
+    categories = r.json() #formato json, cambia de string a una lista
     for category in categories:
         print(category["name"])
