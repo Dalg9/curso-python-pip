@@ -12,7 +12,7 @@ def generate_pie_chart(labels, values):
   ax.pie(values, labels=labels)
   ax.axis('equal')
   #plt.show() solo lo comente para no eliminarlo
-  plt.savefig ("pie.png")
+  plt.savefig ("chart_pie_final.png")
   plt.close()
 
 
